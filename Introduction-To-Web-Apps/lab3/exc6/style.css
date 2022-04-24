@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(236, 251, 254);
+    
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 90%;
+    max-width: 800px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 3px;
+}
+#info{
+    padding: 10px;
+    width: 90%;
+}
+#button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button-box button{
+    padding: 9px;
+    font-size: .9rem;
+    border: none;
+    background-color: rgb(11, 145, 11);
+    border-radius: 7px;
+    color: white;
+    margin-right: 15px;
+}
+#button-box button:hover{
+    background-color: rgb(47, 195, 47);
+}
+
+ul {
+    list-style-type: none;
+     width: 100%;
+}
+
+li {
+    margin-bottom: 20px;
+    display: flex;
+    -webkit-box-shadow: 9px 10px 300px 16px rgba(173,173,173,0.67);
+    -moz-box-shadow: 9px 10px 300px 16px rgba(173,173,173,0.67);
+    box-shadow: 9px 10px 300px 16px rgba(173,173,173,0.67);
+    border: 1px solid rgb(194, 194, 194);
+    background-color: white;
+}
+
+.form{
+    padding: 15px;
+    width: 100%;
+    -webkit-box-shadow: 9px 10px 300px 16px rgba(173,173,173,0.67);
+    -moz-box-shadow: 9px 10px 300px 16px rgba(173,173,173,0.67);
+    box-shadow: 9px 10px 300px 16px rgba(173,173,173,0.67);
+    border: 1px solid rgb(211, 211, 211);
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    display: block;
+    width: 80%;
+    height: 100%;
+}
+.phone{
+    display: block;
+    width: 80%;
+    height: 100%;
+}
+.form button{
+    padding: 5px;
+    font-size: .9rem;
+    height: 30px;
+    border: none;
+    background-color: rgb(11, 145, 11);
+    border-radius: 7px;
+    color: white;
+    width: 100%;
+    margin-top: 20px;   
+
+}
+.form button:hover{
+    background-color: rgb(47, 195, 47);
+}
+.form h3{
+    font-size: 0.8rem;
+}
+input{
+    font-size: 1rem;
+    width: 80%;
+    height: 30px;
+}

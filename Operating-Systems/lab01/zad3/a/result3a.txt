@@ -1,0 +1,204 @@
+TESTS RESULTS FILE (Makefile includes test's description)
+
+KOMENTARZ: wedlug testow (szczegolnie testu 05_1 (najwiekszego)) najwolniejszym sposobem bylo korzystanie
+	   z biblioteki otwieranej dynamicznie przez program, tuz za nia z nieco lepszymi czasami (wzlgedem siebie
+	   podobnymi) znalazly sie biblioteka statyczna i wspoldzielona ladowana przy uruchamianiu programu
+
+--------------------------------------------
+STATIC
+--------------------------------------------
+
+COUNTING FILES:
+	test number 01
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_1
+		Real time: 0.180000 seconds
+		System time: 0.020000 seconds
+		User time: 0.120000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+--------------------------------------------
+SHARED
+--------------------------------------------
+
+COUNTING FILES:
+	test number 01
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.020000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.180000 seconds
+		System time: 0.040000 seconds
+		User time: 0.100000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+--------------------------------------------
+DLL
+--------------------------------------------
+
+COUNTING FILES:
+	test number 01
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.020000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_1
+		Real time: 0.210000 seconds
+		System time: 0.030000 seconds
+		User time: 0.110000 seconds
+				
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		

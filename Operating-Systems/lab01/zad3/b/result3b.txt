@@ -1,0 +1,579 @@
+TESTS RESULTS FILE (Makefile includes test's description)
+
+KOMENTARZ: Sposrod opcji kompilowania (O0, O1, Os), wedlug testow (glownie najwiekszego 05_1) najlepiej wypadla opja -Os skracajac czasy
+	   wykonywania testow o srednio 4ms. Opcja O1 skracala czasy o srednio 3.5ms natomiast opcja -O0 o srednio 3ms. Czas wykonywania 
+	   skracal sie przy wykonywaniu odpowiedniu duzych testow (tj. 05_1). Przy wykonywaniu malych testow byly to wartosci niewidoczne.
+
+--------------------------------------------
+STATIC
+--------------------------------------------
+
+COUNTING FILES:
+	COMPILE OPTION: -O0
+	test number 01
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_1
+		Real time: 0.160000 seconds
+		System time: 0.020000 seconds
+		User time: 0.120000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+
+COMPILE OPTION: -O1
+	test number 01
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_1
+		Real time: 0.160000 seconds
+		System time: 0.040000 seconds
+		User time: 0.100000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+
+COMPILE OPTION: -Os
+	test number 01
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_1
+		Real time: 0.140000 seconds
+		System time: 0.010000 seconds
+		User time: 0.120000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+
+		
+--------------------------------------------
+SHARED
+--------------------------------------------
+
+COUNTING FILES:
+	COMPILE OPTION: -O0
+	test number 01
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_1
+		Real time: 0.160000 seconds
+		System time: 0.010000 seconds
+		User time: 0.120000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+
+COMPILE OPTION: -O1
+	test number 01
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_1
+		Real time: 0.140000 seconds
+		System time: 0.020000 seconds
+		User time: 0.110000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+
+COMPILE OPTION: -Os
+	test number 01
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.020000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_1
+		Real time: 0.160000 seconds
+		System time: 0.020000 seconds
+		User time: 0.120000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+--------------------------------------------
+DLL
+--------------------------------------------
+
+COUNTING FILES:
+	COMPILE OPTION: -O0
+	test number 01
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.010000 seconds
+	test number 05_1
+		Real time: 0.170000 seconds
+		System time: 0.010000 seconds
+		User time: 0.130000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+
+COMPILE OPTION: -O1
+	test number 01
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_1
+		Real time: 0.160000 seconds
+		System time: 0.020000 seconds
+		User time: 0.110000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+
+COMPILE OPTION: -Os
+	test number 01
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.020000 seconds
+		System time: 0.000000 seconds
+		User time: 0.010000 seconds
+	test number 05_1
+		Real time: 0.160000 seconds
+		System time: 0.030000 seconds
+		User time: 0.110000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds

@@ -1,0 +1,27 @@
+body{
+    background: #5D6D7E;
+}
+.container{
+    background: #85929E;
+    padding: 20px;
+    height: 500px;
+    display: flex;
+}
+
+.container div{
+    margin: 10px;
+    width: 200px;
+}
+
+.zielony{
+    background: #58D68D;
+    min-height: 100px;
+}
+.zolty{
+    background: #F4D03F;
+    min-height: 250px;
+}
+.niebieski{
+    background: #3498DB;
+    min-height: 300px;
+}

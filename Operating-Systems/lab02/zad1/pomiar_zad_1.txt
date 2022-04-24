@@ -1,0 +1,39 @@
+File to store results of copying times
+
+
+
+Using system functions
+Copy files: file1.txt - > file2.txt:
+
+Real time: 0.100000 seconds
+System time: 0.040000 seconds
+User time: 0.040000 seconds
+
+
+
+Using library functions
+Copy files: file1.txt - > file2.txt:
+
+Real time: 0.070000 seconds
+System time: 0.060000 seconds
+User time: 0.000000 seconds
+
+
+
+Using library functions
+Copy files: file1.txt - > file2.txt:
+
+Real time: 0.160000 seconds
+System time: 0.130000 seconds
+User time: 0.010000 seconds
+
+
+
+Using system functions
+Copy files: file1.txt - > file3.txt:
+
+Real time: 0.230000 seconds
+System time: 0.140000 seconds
+User time: 0.060000 seconds
+
+

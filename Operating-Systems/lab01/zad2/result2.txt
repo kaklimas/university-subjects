@@ -1,0 +1,64 @@
+TESTS RESULTS FILE (Makefile includes test's description)
+
+COUNTING FILES:
+	test number 01
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 02
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 03
+		Real time: 0.010000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 04
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 05_0
+		Real time: 0.030000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test_number 05_1
+		Real time: 0.160000 seconds
+		System time: 0.040000 seconds
+		User time: 0.090000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (in order saving->removing) 
+	test number 06
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 07
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 08
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 09
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		
+SAVING AND REMOVING BLOCKS FROM MEMORY (no-order)
+	test number 10
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 11
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 12
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+	test number 13
+		Real time: 0.000000 seconds
+		System time: 0.000000 seconds
+		User time: 0.000000 seconds
+		

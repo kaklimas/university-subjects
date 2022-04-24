@@ -1,0 +1,54 @@
+body {
+	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 20px;
+}
+
+ul {
+	display: flex;
+	/* change flex direction on column to make navbar vertival */
+	flex-direction: row; 
+	list-style-type: none;
+}
+ul > li{
+	width: 12em;
+	display: list-item;
+}
+
+ul > li a{
+	color: black;
+	text-decoration: none;
+	font-size: .7rem;
+	text-transform: uppercase;
+	display: block;
+	height: 30px;
+	background-color: rgb(223, 223, 223);
+	border: 1px dashed rgb(175, 174, 174);
+	align-items: center;
+	background: #E7E7E7 url("/lab1/exc6/images/link.png") no-repeat left center;
+	
+}
+ul > li > a  p{
+	margin-top: 8px;
+	margin-left: 30px;
+}
+ul > li:nth-child(1) a{
+	background: rgb(231, 231, 231) url("/lab1/exc6/images/home.png") no-repeat left center;
+}
+
+ul > li:hover a{
+	background: rgb(178, 245, 17) url("/lab1/exc6/images/go.png") no-repeat left center;
+}
+ul > li:nth-child(2) a:hover{
+	background: white url("/lab1/exc6/images/bg_here.png") no-repeat left center;
+}
+
+ul > li:nth-child(2) a:hover p{
+	color: rgb(178, 245, 17);
+}
+ul :nth-child(2) a{
+	background: white url("/lab1/exc6/images/bg_here.png") no-repeat left center;
+}
+ul > li a:hover p{
+	font-weight: 600;
+}

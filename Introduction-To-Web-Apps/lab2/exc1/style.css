@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 95%;
+    height:fit-content;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+}
+.grid-layout{
+    border: 2px solid black;
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'menu menu menu'
+    'left-col page-content right-col'
+    'footer footer footer'
+    ;
+
+}
+.header{
+    grid-area: header;
+    padding: 10px;
+    background-color: rgb(138, 137, 137);
+    text-align: center;
+    border-bottom: 1px solid black;
+    min-height: 60px;
+}
+
+
+.logo{
+    border: 1px solid black;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    float: left;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.menu, .left-col, .page-content, .right-col, .footer{
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: white;
+}
+
+.menu{
+    grid-area: menu;
+}
+.left-col{
+    grid-area: left-col;
+    min-height: 200px;
+    border-right: 1px solid black;
+}
+.page-content{
+    grid-area: page-content;
+    border-right: 1px solid black;
+}
+.right-col{
+    grid-area: right-col;
+}
+.footer{
+    grid-area: footer;
+    background-color: rgb(138, 137, 137);
+    font-weight: 500;
+}
+
+/* Resizing for another devices */
+@media (max-width:600px){
+    .grid-layout{
+        grid-template-areas: 
+            'header header'
+            'menu menu'
+            'left-col page-content'
+            'right-col right-col'
+            'footer footer';        
+    }
+}
+@media (max-width: 480px){
+    
+    .logo{
+        display: none;
+    }
+
+    .grid-layout{
+        grid-template-areas: 
+            'header'
+            'menu'
+            'left-col'
+            'page-content'
+            'right-col'
+            'footer';  
+    }
+}

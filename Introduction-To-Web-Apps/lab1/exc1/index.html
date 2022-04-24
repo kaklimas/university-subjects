@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Text section -->
+    <div class="first">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui animi, optio inventore eaque cupiditate excepturi iure expedita perferendis molestiae natus nobis illum nisi repellendus beatae error a, ipsam laudantium obcaecati.</div>
+    
+    <div class="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt esse doloribus deserunt aspernatur ea, est porro consequatur harum quia distinctio possimus placeat suscipit sed recusandae labore, unde odio quos libero?</div>
+    
+    <div class="third">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, reiciendis! Saepe asperiores temporibus eos nostrum animi corrupti mollitia accusamus harum eveniet, molestiae aliquam iure quam. Eligendi atque facilis voluptas iste.</div>
+    
+    <div class="fourth">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum similique labore unde esse ratione dolor laudantium voluptate, eveniet voluptates laborum, quam quis quo consequatur explicabo inventore asperiores repellendus, molestiae eius?</div>
+    
+    <!-- Tables section -->
+    <table class="first-table">
+        <tr class="header">
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr class="row-1">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="row-2">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="row-1">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr class="row-2">
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+        </tr>
+        
+    </table>
+
+    <table class="second-table" cellspacing="0">
+        <tr class="header">
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr class="row-1">
+            <td></td>
+            <td></td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr class="row-1">
+            <td colspan="2"></td>
+        </tr>
+    </table>
+    <!-- Photos section -->
+    <div class="content-box">
+        <img src="images/img-1.jpg" style="float: left; margin-left: 0;">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse expedita in temporibus eius dolore odio aspernatur ullam. Similique laudantium officiis cupiditate odit magni esse error illo optio? Voluptate, quisquam sunt.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat tempora nobis dolores, ab quidem quas maiores magni hic, sint nostrum assumenda quis eaque. Qui dolorum magni vero distinctio, expedita dolore?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nostrum soluta accusantium vero hic, ullam voluptatem recusandae earum commodi. Praesentium repudiandae nam sint suscipit. Fugiat veniam itaque expedita modi voluptatem?
+        <img src="images/img-2.jpg" style="float: right; margin-right: 0;">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod animi ratione, placeat aspernatur ea voluptatum accusamus molestiae voluptas distinctio doloremque labore repudiandae beatae doloribus, facilis voluptate, nulla reiciendis unde quo.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deserunt asperiores sed cupiditate. Similique odit at maxime consequatur quam quae! Ad, quas soluta. Nesciunt mollitia quis ea illum id sit.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus ducimus quam, animi maxime fugit nisi esse dicta mollitia neque magnam officia, enim laudantium adipisci alias aspernatur magni at recusandae odit?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos repellat voluptatibus aut maiores sapiente nobis, facere in similique odit amet blanditiis est nihil laudantium tempore itaque nostrum neque quisquam odio!Lorem
+        
+    </div>
+    
+    <div class="images">
+        <img src="images/img-1.jpg" alt="">
+        
+        <img class="img-2" src="images/img-2.jpg" alt="">
+        
+        <img  class = "img-3" src="images/img-1.jpg" alt="">
+    </div>
+
+    <!-- Lists section -->
+    <div class="countries">
+        <div class="europe-box">
+            <ul>
+                <li>Poland</li>
+                <li>Germany</li>
+                <li>France</li>
+                <li>Slovakia</li>
+                <li>Belgium</li>
+            </ul>
+        </div>
+        <div class="asia-box">
+            <ul>
+                <li>China</li>
+                <li>Japan</li>
+                <li>Korea</li>
+            </ul>
+        </div>
+    
+    </div>
+    
+    <div class="form">
+        <div class="header">
+            <p>Sign Up</p>
+        </div>
+        
+        <div class="box">
+            <div class="desc">
+                <label>First Name</label>
+                <label>Last Name</label>
+                <label>Date of Birth</label>
+                <label>Gender</label>
+                <label>Country</label>
+                <label>E-mail</label>
+                <label>Phone</label>
+                <label>Password</label>
+                <label>Confirm Password</label>
+            </div>
+            <div class="inputs">
+                <input type="text" placeholder="Enter First Name">
+                <input type="text" placeholder="Enter Last Name">
+                <input type="date">
+                <div class="gender">
+                    <input type="radio" id="male" name="radio"> Male
+                    <input type="radio" id="female" name="radio"> Female
+                </div>
+                <select name="countries" id="c" style="margin-bottom: 15px; width: 150px">
+                    <option value="Poland">Poland</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Germany">Germany</option>
+                </select>
+                <input type="email" placeholder="Enter E-mail">
+                <input type="text" placeholder="Enter Phone">
+                <input type="password">
+                <input type="password">
+                <div class="agreement">
+                    <input type="checkbox" name="agreement" id="a" style="width: auto;">
+                    <label for="agreement">I Agree to the Terms of use</label>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="footer">
+            <button class="submit" style="background-color: rgb(19, 168, 39);">Submit</button>
+            <button class="cancel" style="background-color: rgb(199, 26, 20);" >Cancel</button>
+        </div>
+    </div>
+
+    <div style="height: 500px;"></div>
+
+
+</body>
+</html>

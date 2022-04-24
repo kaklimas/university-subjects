@@ -1,0 +1,123 @@
+Original value of pi = 3.14159265358979
+                       3.1415924050
+Results of calculating files:
+
+-----------------------------------
+Calculate for 100 processes and interval width: 0.001000
+PI = 3.1405924860
+
+Real time: 0.180000 seconds
+System time: 0.010000 seconds
+User time: 0.000000 seconds
+
+
+
+-----------------------------------
+Calculate for 100 processes and interval width: 0.000100
+PI = 3.1692316581
+
+Real time: 0.180000 seconds
+System time: 0.010000 seconds
+User time: 0.000000 seconds
+
+
+
+-----------------------------------
+Calculate for 1000 processes and interval width: 0.000100
+PI = 3.4146005033
+
+Real time: 1.430000 seconds
+System time: 0.140000 seconds
+User time: 0.000000 seconds
+
+
+
+-----------------------------------
+Calculate for 1000 processes and interval width: 0.000010
+PI = 3.1580632743
+
+Real time: 1.420000 seconds
+System time: 0.130000 seconds
+User time: 0.000000 seconds
+
+
+
+-----------------------------------
+Calculate for 1000 processes and interval width: 0.000001
+PI = 3.1425060410
+
+Real time: 1.490000 seconds
+System time: 0.150000 seconds
+User time: 0.000000 seconds
+
+
+
+-----------------------------------
+Calculate for 1000 processes and interval width: 0.0000001
+PI = 3.1417315897
+
+Real time: 1.510000 seconds
+System time: 0.140000 seconds
+User time: 0.000000 seconds
+
+
+
+-----------------------------------
+Calculate for 10000 processes and interval width: 0.0000001
+PI = 3.1429834556
+
+Real time: 15.420000 seconds
+System time: 1.450000 seconds
+User time: 0.020000 seconds
+
+
+
+-----------------------------------
+Calculate for 1000 processes and interval width: 0.00000001
+PI = 3.1416092687
+
+Real time: 1.700000 seconds
+System time: 0.140000 seconds
+User time: 0.000000 seconds
+
+
+
+-----------------------------------
+Calculate for 1000 processes and interval width: 0.000000001
+PI = 3.1415948988
+
+Real time: 3.710000 seconds
+System time: 0.140000 seconds
+User time: 0.000000 seconds
+
+
+
+-----------------------------------
+Calculate for 1000 processes and interval width: 0.0000000001
+PI = 3.1415926832
+
+Real time: 26.080000 seconds
+System time: 0.170000 seconds
+User time: 0.000000 seconds
+
+
+
+-----------------------------------
+Calculate for 1000 processes and interval width: 0.000000000010
+PI = 3.1415924050
+
+Real time: 212.240000 seconds
+System time: 0.210000 seconds
+User time: 0.000000 seconds
+
+
+
+-----------------------------------
+Calculate for 10000 processes and interval width: 0.000000000010
+PI = 3.1415926565
+
+Real time: 305.830000 seconds
+System time: 1.650000 seconds
+User time: 0.010000 seconds
+
+

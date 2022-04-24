@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+
+    width: 60%;
+    min-height: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.img-component{
+    width: 300px;
+    height: 440px;
+    margin: 10px;
+    -webkit-box-shadow: 3px 3px 12px 9px rgba(0,0,0,0.05);
+-moz-box-shadow: 3px 3px 12px 9px rgba(0,0,0,0.05);
+box-shadow: 3px 3px 12px 9px rgba(0,0,0,0.05);
+}
+.img-place{
+    width: 100%;
+    height: 140px;
+    background-color: black;
+}
+.box{
+    width: 100%;
+    height: 220px;
+    padding: 20px;
+}
+.box .text{
+    border-bottom: 1px solid rgb(182, 181, 181);
+    padding-bottom: 30px;
+    height: auto;
+}
+.box .text h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.box .text h2{
+    margin-top: 7px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(223, 58, 58);
+}
+p{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: .8rem;
+    color: rgb(73, 73, 73);
+}
+.inform-place{
+    margin-top: 20px;
+    height: 80px;
+    padding-left: 20px;
+}
+.inform-box{
+    display: flex;
+    flex-direction: row;
+}
+.inform-box .reactions{
+    margin-left: 70px;
+}
+.inform-box p{
+    margin-top: 2px;
+    font-size: .8rem;
+}
+.inform-place .inform-box button{
+    padding: 4px;
+    width: 90px;
+    height: 30px;
+    background-color: rgb(235, 77, 77);
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.react-box{
+    display: flex;
+    flex-direction: row;
+}

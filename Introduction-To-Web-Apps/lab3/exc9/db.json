@@ -1,0 +1,18 @@
+{
+    "employees": [
+        {
+            "img": "https://th.bing.com/th/id/OIP.4XEwruGGfFxEE8wYPg43wQAAAA?pid=ImgDet&rs=1",
+            "name": "Piotr",
+            "surname": "Piotrowski",
+            "job": "Intern",
+            "description": "Lorem ipsum"
+        },
+        {
+            "img": "https://th.bing.com/th/id/OIP.4XEwruGGfFxEE8wYPg43wQAAAA?pid=ImgDet&rs=1",
+            "name": "Anna",
+            "surname": "Nowak",
+            "job": "Web designer",
+            "description": "Lorem ipsum"
+        }
+    ]
+}

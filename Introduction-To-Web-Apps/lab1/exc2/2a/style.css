@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 95%;
+    height:fit-content;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+}
+.grid-layout{
+    border: 2px solid black;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'main-page galery localization contact'
+    'left-col page-content page-content page-content'
+    'left-col page-content page-content page-content'
+    'left-col page-content page-content page-content'
+    'left-col page-content page-content page-content'
+    'footer footer footer footer'
+    ;
+
+}
+.header{
+    grid-area: header;
+    padding: 10px;
+    background-color: rgb(138, 137, 137);
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.logo{
+    border: 1px solid black;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    float: left;
+    font-size: 1rem;
+}
+.main-page{
+    grid-area: main-page;
+    min-height: 50px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.galery{
+    grid-area: galery;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.localization{
+    grid-area: localization;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.contact{
+    grid-area: contact;
+    border-bottom: 1px solid black;
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+.left-col{
+    grid-area: left-col;
+    min-width: 350px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    background-color: white;
+    text-align: center;
+}
+.page-content{
+    grid-area: page-content;
+    border-bottom: 1px solid black;
+    background-color: white;
+    text-align: center;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+    padding-top: 5px;
+    background-color: rgb(138, 137, 137);
+}
+.img-box{
+    margin-top: 40px;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 13px 7px 29px -4px rgba(0,0,0,0.64);
+    -moz-box-shadow: 13px 7px 29px -4px rgba(0,0,0,0.64);
+    box-shadow: 13px 7px 29px -4px rgba(0,0,0,0.64);
+}
+.top{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px 20px 0 0;
+}
+.bot{
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+
+}
+.desc1{
+    background-color: blue;
+    width: 30%;
+    height: 8px;
+    border-radius: 10px;
+}
+.desc2{
+    width: 70%;
+    height: 6px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.desc2 div{
+    border-radius: 5px;
+}
+.desc2-1{
+    width: 60%;
+    background-color: gray;
+}
+.desc2-2{
+    width: 35%;
+    background-color: gray;
+}
+.form{
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    justify-content: center;
+}
+.desc, .inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.desc{
+    text-align: right;
+}
+.desc label{
+    margin-bottom: 17px;
+}
+.inputs input, .inputs select{
+    margin-bottom: 15px;
+}
+.inputs{
+    margin-left: 15px;
+}
+.footer{
+    background-color: white;
+}
+.footer button{
+    width: 60px;
+    padding: 3px;
+    font-size: .9rem;
+}
+.footer button:hover{
+    cursor: pointer;
+    color: white;
+}

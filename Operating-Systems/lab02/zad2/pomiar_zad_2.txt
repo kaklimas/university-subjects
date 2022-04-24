@@ -1,0 +1,103 @@
+----------------------------------------------------
+Tests section:
+
+counted file: large.txt (30000 lines, 255 bytes each line, ~= 7,5MB)
+
+- test 1 - repeat counting 10 times
+    
+    Using library funcions: 
+        Real time: 0.320000 seconds
+        System time: 0.020000 seconds
+        User time: 0.220000 seconds
+
+    Using system functions:
+        Real time: 0.240000 seconds
+        System time: 0.020000 seconds
+        User time: 0.220000 seconds
+
+- test 2 - repeat counting 100 times
+
+    Using library funcions: 
+        Real time: 2.300000 seconds
+        System time: 0.190000 seconds
+        User time: 2.080000 seconds
+
+    Using system functions:
+        Real time: 2.280000 seconds
+        System time: 0.180000 seconds
+        User time: 2.090000 seconds
+
+- test 3 - repeat counting 1000 times
+
+    Using library funcions: 
+        Real time: 23.100000 seconds
+        System time: 1.910000 seconds
+        User time: 21.050000 seconds
+
+    Using system functions:
+        Real time: 23.280000 seconds
+        System time: 1.880000 seconds
+        User time: 21.290000 seconds
+
+-------------------------------------------------
+
+Use library funcions
+File name: large.txt
+Result: 235445
+Times:
+
+Real time: 0.040000 seconds
+System time: 0.010000 seconds
+User time: 0.010000 seconds
+
+
+Use system funcions
+File name: large.txt
+Result: 235445
+Times:
+
+Real time: 0.030000 seconds
+System time: 0.000000 seconds
+User time: 0.020000 seconds
+
+
+Use library funcions
+File name: file1.txt
+Result: 838
+Times:
+
+Real time: 0.000000 seconds
+System time: 0.000000 seconds
+User time: 0.000000 seconds
+
+
+Use system funcions
+File name: file1.txt
+Result: 838
+Times:
+
+Real time: 0.000000 seconds
+System time: 0.000000 seconds
+User time: 0.000000 seconds
+
+
+Use library funcions
+File name: file1.txt
+Result: 838
+Times:
+
+Real time: 0.010000 seconds
+System time: 0.000000 seconds
+User time: 0.000000 seconds
+
+
+Use system funcions
+File name: file1.txt
+Result: 838
+Times:
+
+Real time: 0.000000 seconds
+System time: 0.000000 seconds
+User time: 0.000000 seconds
+
+
