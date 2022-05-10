@@ -42,17 +42,17 @@ def get_accuracy(Y, IY):
 def draw(x, y, function, n, p):
     X = even_distribution(a, b, 1000)
     Y = f(X)
-    plt.scatter(x, y, label="data", color="red")
+    plt.scatter(x, y, label="Węzły", color="red")
     plt.plot(X, function(X, x, y), label="Newton", color="blue")
     a1, a2 = get_accuracy(Y, function(X, x, y))
-    if p == "Chebyshev's":
+    if p == "Chebyshev'a":
         res1c.append(a1)
         res2c.append(a2)
     else:
         res1e.append(a1)
         res2e.append(a2)
-    plt.plot(X, Y, label="original", color="orange")
-    plt.title(f"Newton’s Polynomial Interpolation on {n} {p} nodes")
+    plt.plot(X, Y, label="Funkcja oryginalna", color="orange")
+    plt.title(f"Interpolacja Newtona dla {n} węzłów {p}")
     plt.xlabel("x")
     plt.ylabel("y")
     plt.legend()
@@ -86,24 +86,25 @@ def visualize_newton(start, stop, n):
     # even distribution
     even_x = even_distribution(start, stop, n)
     even_y = f(even_x)
-    draw(even_x, even_y, newton_interpolation, n, "equidistant")
+    draw(even_x, even_y, newton_interpolation, n, "równoodległych")
 
     # chebyshev distribution
     chebyt_x = chebyshev_distribution(start, stop, n)
     chebyt_y = f(chebyt_x)
-    draw(chebyt_x, chebyt_y, newton_interpolation, n, "Chebyshev's")
+    draw(chebyt_x, chebyt_y, newton_interpolation, n, "Chebyshev'a")
 
 
 def visualize_acc():
     X = [i for i in range(3, 30)]
-    plt.plot(X, res1c, label="Chebyshev's nodes", color="red")
-    plt.title("Lambda 1 values")
-    plt.xlabel("Number of nodes")
-    plt.ylabel("Value of lambda 1")
+    print(res1c )
+    plt.plot(X, res1c, label="Węzły Chebyshev'a", color="red")
+    plt.title("Wartości lambda 1 w zależności od ilości wezłów")
+    plt.xlabel("Ilość węzłów")
+    plt.ylabel("Wartości lambda 1")
 
-    plt.plot(X, res1e, label=" Equidistant nodes", color="blue")
-    plt.xlabel("Number of nodes")
-    plt.ylabel("Value of lambda 1")
+    plt.plot(X, res1e, label="Węzły równoodległe", color="blue")
+    plt.xlabel("Ilość węzłów")
+    plt.ylabel("Wartości lambda 1")
     plt.legend()
     plt.show()
 
@@ -120,8 +121,9 @@ def visualize_acc():
 
 
 # rysuje wykresy dla (*) oraz (**) dla wezlow w przedziale od 21 do 30
-for i in range(3, 70, 1):
+for i in range(3, 30, 1):
     visualize_newton(a, b, i)
 
+
 # rysuje wykres zależności lambda 1 oraz lambda 2 od ilości węzłów
-# visualize_acc()
+visualize_acc()

@@ -56,7 +56,7 @@ def draw(X, Y, Xn, Yn, IYn, p, n):
     plt.xlabel("x")
     plt.ylabel("y")
     plt.legend()
-    #plt.show()
+    plt.show()
 
 
 def visualize_acc():
@@ -121,9 +121,9 @@ def visualize_lagrange(n, type):
 
 
 # rysuje wykresy dla (*) oraz (**) dla wezlow w przedziale od 21 do 30
-for i in range(3, 31):
-    visualize_lagrange(i, "c")
-    visualize_lagrange(i, "e")
-
+# for i in range(3, 31):
+#     visualize_lagrange(i, "c")
+#     visualize_lagrange(i, "e")
+visualize_lagrange(60, "e")
 # rysuje wykres zależności lambda 1 oraz lambda 2 od ilości węzłów
-visualize_acc()
+# visualize_acc()
