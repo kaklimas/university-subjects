@@ -120,5 +120,5 @@ def approximation(start, stop, n, m):
     visualize(X, Y, start, stop, n, m, trigonometric_approximation.approximate())
 
 
-# approximation(a, b, 70, 12)
-getAccuracy()
+approximation(a, b, 70, 30)
+# getAccuracy()
