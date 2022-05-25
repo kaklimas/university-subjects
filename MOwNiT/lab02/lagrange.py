@@ -124,6 +124,9 @@ def visualize_lagrange(n, type):
 # for i in range(3, 31):
 #     visualize_lagrange(i, "c")
 #     visualize_lagrange(i, "e")
-visualize_lagrange(60, "e")
+# visualize_lagrange(60, "e")
 # rysuje wykres zależności lambda 1 oraz lambda 2 od ilości węzłów
 # visualize_acc()
+X = np.linspace(a, b, num=1000)
+plt.plot(X, f(X))
+plt.show()

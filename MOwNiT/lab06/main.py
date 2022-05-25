@@ -46,15 +46,18 @@ def calculate_euler(p):
         S2.append(s2)
         I1.append(i1)
         I2.append(i2)
-        print(i2)
+        print(i1)
         x2 -= 0.1
         x2 = round(x2, 3)
 
 
     print("Średnia 1: ", get_acc(S1))
     print("Średnia 2: ", get_acc(S2))
-    plt.plot(X, I1, label="Liczba iteracji dla pierwszego kryt.")
-    plt.plot(X, I2, label="Liczba iteracji dla drugiego kryt.")
+
+
+
+    plt.plot(X, I1[::-1], label="Liczba iteracji dla pierwszego kryt.")
+    plt.plot(X, I2[::-1], label="Liczba iteracji dla drugiego kryt.")
     plt.title('Liczba iteracji w zależności od wartości x2')
     plt.xlabel('Wartości początkowe')
     plt.ylabel('Liczba iteracji')
@@ -140,5 +143,5 @@ if __name__ == '__main__':
     # calculate_newton(0.0000001)
     # draw_function()
     # print(euler(1.9, 2, 0.00000001))
-    calculate_euler(0.0000001)
+    calculate_euler(0.0001)
     # print(euler(0.2, 2, 0.0000001))
