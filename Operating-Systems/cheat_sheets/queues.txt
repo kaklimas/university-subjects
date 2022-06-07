@@ -1,0 +1,61 @@
+# Kolejki
+
+-- System V
+    
+    ipcs -q
+
+    * tworzenie nowej kolejki / pobieranie wartości klucza
+    juz istniejącej
+
+    #define SERVER_KEY 12345
+    #define MAX_SIZE    1024
+    #define MAXMSG 4098
+
+    struct user{
+        int id;
+        key_t user_key;
+        int que_id;
+        bool active;
+    };
+
+    struct msg{
+        long type;
+        struct user client;
+        char content[MAXMSG];
+    };
+
+    int server_id = msgget((key_t) SERVER_KEY, 0666 | IPC_CREAT);
+
+    * wysylanie komunikatu
+    msgsnd(que_id, (void*) &struct_to_send, MAXMSG, 0);
+
+    msgrcv(que_id, (void*) &struct_to_rcv, MAXMSG, 0);
+
+    * usuwanie kolejki
+    msgctl(server_id, IPC_RMID, NULL);
+
+-- POSIX
+
+    -lrt w Makefilu
+
+    struct mq_attr mqAttr;
+        mqAttr.mq_flags = O_RDONLY | O_NONBLOCK | O_CREAT | O_EXCL;
+        mqAttr.mq_maxmsg = 10;
+        mqAttr.mq_msgsize = MSG_MAX;
+        mqAttr.mq_curmsgs = 0;
+
+    errno = 0;
+    mqd_t server_desc = mq_open(serverQueueName, O_RDONLY | O_NONBLOCK | O_CREAT | O_EXCL, 0666, &mqAttr);
+    
+
+    unsigned int msg_prio;
+
+    char buffer[MSG_MAX+1];
+    buffer[MSG_MAX] = 0;
+
+    mq_send(server_desc, bufer, MSG_MAX, &msg_prio)
+
+    mq_receive(server_desc, buffer, MSG_MAX, &msg_prio) (== -1 nic nie przyszlo)
+
+    mq_close(server_desc)
+    mq_unlink(serverQueName) -> usuwanie kolejki

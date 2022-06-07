@@ -1,0 +1,70 @@
+Wątki
+
+-pthread
+
+
+#include <pthread.h>
+
+
+void* calculate(void* arg){
+	int* args = (int*) arg;
+	printf("Thread number: %d | \n", args[0]);
+	free(arg);
+	pthread_exit(0);
+}
+
+int main(int argc, char ** argv){
+	int threads_no = 5;
+	pthread_t *threads = calloc(threads_no, sizeof(pthread_t));
+	for (int i = 0; i < threads_no; i++){
+		int *args = calloc(1, sizeof(int));
+		args[0] = i;
+		pthread_create(&threads[i], NULL, calculate, args);
+	}
+	for (int i = 0; i< threads_no; i++){
+		pthread_join(threads[i], NULL);
+	}
+	free(threads);
+}
+
+int pthread_sigmask(int how, const sigset_t* set, sigset_t* oset);
+int pthread_kill(pthread_t thread, int signo);
+int pthread_sigqueue(pthread_t thread, int sig, const union sigval value);
+
+------------
+MUTEXY
+
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+
+main ...
+pthread_mutex_init(&mutex, NULL);
+
+thread life...
+pthread_mutex_lock(&mutex);
+
+pthread_mutex_unlock(&mutex);
+sleep(1)
+
+
+------------
+CONDITIONS
+
+pthread_cond_t cond = PTHREAD_COND_INITIALIZER;
+
+main ...
+pthread_cond_init(&cond, NULL)
+
+thread life...
+
+pthread_mutex_lock(&mutex);
+if not cond:
+   pthread_cond_wait(&cond, &mutex);
+...
+pthread_mutex_unlock(&mutex);
+
+inny watek
+thread_mutex_lock(&mutex);
+/* zmiana x oraz y */
+if (x > y) 
+    pthread_cond_broadcast(&cond);
+pthread_mutex_unlock(&mutex);
