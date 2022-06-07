@@ -1,0 +1,32 @@
+----------------
+SYSTEM V
+
+int key = 1234;
+int nsems = 1;
+int flag = 0666 | IPC_CREAT;
+
+int sem_key = semget((key_t) key, nsems, flag)
+
+....
+sem setup
+
+int semctl(sem_key, int semnum, int cmd, union semun arg)
+cmd: SETVAL, GETVAL, IPC_RMID
+union semun {
+               int              val;    /* Value for SETVAL */
+               struct semid_ds *buf;    /* Buffer for IPC_STAT, IPC_SET */
+               unsigned short  *array;  /* Array for GETALL, SETALL */
+               struct seminfo  *__buf;  /* Buffer for IPC_INFO
+                                           (Linux-specific) */
+           }; 
+
+struct sembuf
+{
+   unsigned short sem_num;
+   short sem_op;   sem_op < 0 -> zmniejszenie wartosci sem
+   short sem_flg;
+}
+
+strcuct sembuf * operations_set;
+
+int operation_result = semop(sem_key, add, operations_no)
